@@ -1,0 +1,91 @@
+.boxes{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    padding :30px;
+    width:23%;
+    border-radius: 30px;
+    border : 2px solid #fff;
+    transition: 0.5s;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+}
+.boxes:hover{
+    border:2px solid #0073FF;
+    transition: 0.5;
+}
+
+.boxes img{
+    width:200px;
+    margin-left: 65px;
+} 
+.boxes h2{
+    font-weight: 500;
+    margin-bottom: -20px;
+}
+.boxes h3{
+    font-size: 15px;
+    font-weight: 400;
+    color:#000000;
+    margin-bottom: 0px;
+}
+.boxes p{
+    font-size: 14px;
+    color:#9d9d9d;
+}
+.boxes button{
+    padding:15px;
+    border-radius: 40px;
+    border : 1.5px solid #ebebeb;
+    background-color: #ebebeb;
+    font-family: "poppins";
+    transition: 0.5s;
+
+}
+.boxes button:hover{
+    background: #0073FF;
+    color:#fff;
+    transition: 0.5s;
+}
+
+.expr{
+    margin: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.expr1{
+    margin: 50px;
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.navs{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    margin-top: 130px;
+    justify-content: center;
+    border-bottom: 2px solid #b5b5b5;
+    padding: 40px;
+    width:1000px;
+}
+.navs button{
+    background: #ffffff;
+    border-radius: 30px;
+    padding:20px;
+    width:200px;
+    font-family: "poppins";
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+}
+.navsp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

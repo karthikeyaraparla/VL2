@@ -1,0 +1,191 @@
+.vlead-container {
+    padding: 3rem;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.vlead-heading {
+    font-size: 2.5rem;
+    margin-top: 90px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: "poppins";
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: black;
+}
+
+.tabs-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 0px;
+    padding: 20px;
+}
+
+.tab {
+    padding: 20px 35px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tab.active {
+    background-color: #0073FF;
+    color: white;
+}
+
+.tab:hover {
+    background-color: #0073FF;
+    color: white;
+}
+
+.content-section {
+    background: white;
+    padding: 3rem 5rem 5rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    border-radius: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.stakeholders-section {
+    margin-top: 40px;
+}
+
+.stakeholder-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.stakeholder-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.stakeholder-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.testimonial-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.testimonial-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.testimonial-card h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #222;
+}
+
+.testimonial-card .designation {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.footer {
+
+    color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    align-items: center;
+    color: #000000;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0073FF;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
